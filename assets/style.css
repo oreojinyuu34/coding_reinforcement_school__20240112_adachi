@@ -1,0 +1,43 @@
+body{
+  color: #333;
+  background-color: #ccc;
+max-width: 1040px;
+}
+h2{
+  font-family: BIZ UD Mincho;
+  font-size: 24px;
+}
+h3{
+  font-family:BIZ UD Gothic;
+  font-size: 18px;
+}
+p{
+  font-size: 16px;
+}
+.programming-language{
+  margin: 92px 0;
+}
+.card-area{
+display: flex;
+justify-content: space-between;
+margin: 64px 40px 0;
+}
+.card{
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+flex-direction: column;
+flex-basis: 30%;
+}
+.card-image{
+  aspect-ratio: 16/9;
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+.card-title{
+margin-bottom: 8px;
+}
+.card-text{
+  padding: 0 16px 16px;
+
+}
